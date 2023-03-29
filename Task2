@@ -1,0 +1,102 @@
+<html>
+        <head>
+            <title>
+                Portfolio
+                </title>
+        <style>
+            ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+            h1{
+                font-style:italic;
+                font-size: 100px;
+               display: flex; 
+            justify-content: center; 
+            color: gold;
+            }
+            p{
+                font-style:italic;
+                font-size: 30px; 
+                justify-content: center; 
+                display: flex;
+            color: white;
+            }
+            pre{
+                font-style:roman;
+                font-size: 30px; 
+            color: gold;
+            }
+            pre.about{
+                font-size: 15;
+                color: white;
+            }
+            p.mail{
+                font-size:20px; 
+                justify-content: center; 
+                display: flex;
+            color: white;
+            }
+            body{
+                background-repeat: no-repeat;
+               background-size: 100% 40%;
+            }
+           .image{
+                width:80%;
+                height:100%;
+            }
+            .photo{
+                 width:40%;
+                height:70%;
+            }
+            .photo:hover{
+              transform: translate(35px,35px);
+            }
+        </style>
+        </head>
+        <body background="p.jpg"> 
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Contact">Contact</a></li>
+              </ul>
+            <h1>Hello! I'm<br>vyshnavi papijenni</h1>
+           <p> Web designer and Web developer</p>
+           <p class ="mail"> &#9993vyshu@gmail.com</p>
+           <img src="myself.jpg" class="photo">
+           <img src="bg.jpg" class="image" align="right">
+           <pre style="font-family:serif;" id="About">                                         A bit about me</pre>
+           <pre class="about">                                     My name is vyshnavi papijenni. I graduated from vit 
+            a month ago. Now, I am looking for my first full-time job. I have been working as a freelance web
+                                     developer for the last three years and cooperated with several startups. I cannot say with 100% confidence where I see myself in five years or 
+                                     what my big career goal is. The world is changing rapidly, and I don't have enough professional experience to be certain about such things. 
+                                     However, I know that I can provide a fresh take and an extraordinary approach to every project. I am always open to challenges and constructive 
+                                     feedback. I am open-minded and learn new things quickly. I want to become a team player and dedicate all my skills and talents to develop 
+                                     high-quality and unique products.I am outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. I believe 
+                                     that a person should work on developing their professional skills and learning new things all the time. 
+</pre>
+            <pre style="font-family:serif;" id="Skills">                                         My skills                                                                                 Projects Done</pre>
+            <pre style="color: white;">                   &#9758;Photography&#x1F4F7;                            &#9758;Landing Page
+                   &#9758;Web Design <img src="p1.jpg" width=20 height=25>                             &#9758;Portfolio
+                   &#9758;Photoshop <img src="p2.jpg" width="20" height="20">                              &#9758;Temperature Convertor
+        </pre>
+            <pre style="font-family:serif;" id="Contact">                                         Contact me</pre>
+            <pre style="color: white;font-family: serif;font-size: 25px;">                                                  <img src="p3.jpg" width=30 height=30>  Vizag
+                                                  📞 Phone : +91 9876543210
+                                                   &#9993 likhitharanga@gmail.com
+        </pre>
+</body>
